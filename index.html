@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <title>PISRC</title>
+
+        <style>
+
+            body{ 
+                text-align: center;               
+            }
+
+            .tituloPrincipal{
+                font-size: 5rem;
+            }
+
+            .informacao{
+                text-align: left;
+                font-size: 1.7rem;
+                font-family: sans-serif;
+            }
+
+            li{
+                text-decoration: none;
+            }
+
+            .nomeAluno {
+                text-decoration: none;
+                text-align: left;
+            }
+
+            .roteadores{
+                text-align: left;
+                font-size: 3.5rem;
+                margin-left: 10rem;
+            }
+
+            p{
+                text-align: left;
+                font-size: 1.8rem;
+                text-decoration: underline;
+                margin-left: 12rem;
+            }
+
+            ul{
+                text-align: left;
+                font-size: 1.5  rem;
+                margin-left: 14rem;
+            }
+
+            li{
+                text-align: left;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1 class="tituloPrincipal">Projeto Inteconexão e Segurança de Redes de Computadores</h1>
+        <h2>
+            <b class="informacao">Docente : </b> Heron Aragão Monteiro           
+        </h2>
+        
+        <h2>
+            <b class="informacao">Discentes : </b> Arthur Felipe Muniz Sales<br>
+
+                        
+        </h2>
+        <br>
+        <br>
+
+        <section>
+
+            <h4 class="roteadores">Roteador 0 : </h4>
+            <p>Rede Interna Giga0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.10.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: 192.168.10.1
+                </li>
+                <li>
+                    IP do Servidor DHCP: 192.168.10.2
+                </li>
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 192.168.10.1
+                </li>
+                <li>
+                    IP´s das Máquinas: 192.168.10.3 à 192.168.10.7 (Definido pelo DHCP).
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+        
+            <p>Rede Serial 0/3/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 10.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 10.0.0.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 10.0.0.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Serial 0/3/1</p>
+            <ul>
+                <li>
+                    IP da REDE: 14.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 14.0.0.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 14.0.0.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+        
+        <section>
+
+            <h4 class="roteadores">Roteador 1 : </h4>
+            <p>Rede Serial 0/3/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 10.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 10.0.0.2
+                </li>
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 10.0.0.1
+                </li>          
+            </ul>
+
+            <br>
+            <br>
+            <br>
+        
+            <p>Rede Serial 0/3/1</p>
+            <ul>
+                <li>
+                    IP da REDE: 11.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 11.0.0.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 11.0.0.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Giga 0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.20.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: 192.168.20.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 192.168.20.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+       
+        <section>
+
+            <h4 class="roteadores">Roteador 2 : </h4>
+            <p>Rede Serial 0/0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 11.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 11.0.0.2
+                </li>
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 11.0.0.1
+                </li>          
+            </ul>
+
+            <br>
+            <br>
+            <br>
+        
+            <p>Rede Serial 0/0/1</p>
+            <ul>
+                <li>
+                    IP da REDE: 12.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 12.0.0.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 12.0.0.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Interna Giga 0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.30.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: 192.168.30.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+
+        <section>
+
+            <h4 class="roteadores">Roteador 3 : </h4>
+            <p>Rede Serial 0/0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 12.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 12.0.0.2
+                </li>
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 12.0.0.1
+                </li>          
+            </ul>
+
+            <br>
+            <br>
+            <br>
+        
+            <p>Rede Serial 0/0/1</p>
+            <ul>
+                <li>
+                    IP da REDE: 13.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 13.0.0.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 13.0.0.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Interna Giga 0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.40.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: 192.168.40.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    IP do Servidor WEB: 192.168.40.2
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+
+        <section>
+
+            <h4 class="roteadores">Roteador 4 : </h4>
+            <p>Rede Serial 0/3/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 13.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 13.0.0.2
+                </li>
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 13.0.0.1
+                </li>          
+            </ul>
+
+            <br>
+            <br>
+            <br>
+        
+            <p>Rede Serial 0/3/1</p>
+            <ul>
+                <li>
+                    IP da REDE: 14.0.0.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.0.0.0
+                </li>
+                <li>
+                    IP do roteador: 14.0.0.2
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 14.0.0.1
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Interna Giga 0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.50.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: 192.168.50.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+
+        <section>
+
+            <h4 class="roteadores">Roteador 5 : </h4>
+            <p>Rede Giga 0/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.20.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: 192.168.20.2
+                </li>
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: 192.168.20.1
+                </li>          
+            </ul>
+
+            <br>
+            <br>
+            <br>
+        
+            <p>Rede Giga 1/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.21.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: IP da REDE: 192.168.21.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: IP da REDE: 192.168.21.1
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Giga 2/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.22.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: IP da REDE: 192.168.22.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: IP da REDE: 192.168.22.1
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Giga 3/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.23.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: IP da REDE: 192.168.23.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: IP da REDE: 192.168.23.1
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <p>Rede Giga 4/0</p>
+            <ul>
+                <li>
+                    IP da REDE: 192.168.24.0
+                </li>
+                <li>
+                    Máscara da Rede: 255.255.255.0
+                </li>
+                <li>
+                    IP do roteador: IP da REDE: 192.168.24.1
+                </li>            
+                <li>
+                    IP do Servidor DNS: 192.168.20.3
+                </li>
+                <li>
+                    Getway de Saída: IP da REDE: 192.168.24.1
+                </li>           
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+
+    </body>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</html>
